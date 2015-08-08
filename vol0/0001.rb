@@ -1,7 +1,7 @@
 a=[]
-for i in 1..10
+10.times{
   a.push(gets.to_i)
-end
+}
 a.sort!
 puts a[9]
 puts a[8]
